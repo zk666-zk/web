@@ -1,0 +1,60 @@
+/* .header{top:20px;} */
+.mt-20{margin-top:100px;}
+ .bod{background:#000000}
+.p1{width:20px;height:1px;border-bottom:1px solid #c7a172;padding:0;margin:0;margin:2px 0px 4px 0px;}
+.navbar-collapse>ul{padding-left:60%;}
+.w1{font-size:12px;width:70px;}
+a.text-dark{color:rgba(255, 255, 255, 0.2) !important;}
+a.text-dark:hover{color:#c7a172 !important;}
+.ht{height:120px;}
+.ht1{height:160px;}
+.zhongzi{color:rgba(199, 161, 114, 1);font-family:"mv boli";}
+.bg{background:#1B1C20;}
+.d-flex>div{color: rgba(255, 255, 255, 0.2);}
+.putao{font-size:24px;color:rgba(199,161,114,1)}
+/* .bor{font-family:chiller;} */
+@media (min-width:576px) {
+	.font{font-size:30px;}
+	
+}
+@media (min-width:768px) {
+	.font1{font-size:90px;}
+}
+@media (min-width:768px){
+	.font3{font-size:60px;}
+}
+
+@media (min-width:576px) {
+	.w-100-sm{width:100%;}
+}
+@media (min-width:992px) {
+	.w-50-lg{width:50%;}
+}
+/* @media (min-width:576px) */
+.w-15{width:15%;} 
+@media (min-width:576px) {
+	.jz-sm{margin:0;}
+}
+@media  (min-width:992px){
+	.jz-lg{margin:25% 25%;}
+}
+/* .jz{} */
+.line{line-height:1;}
+.putao1{color:rgba(199,161,114,1);}
+.ziti{font-family:"mv boli";}
+.iw{width:95%;}
+@media (min-width:992px) {
+	#iw1{width:94%;}
+	.iw-lg-94{width:94%};
+	
+}
+.touming{color:rgba(255, 255, 255, 0.2);}
+hr{width:20%;border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+@media (min-width:992px) {
+	.font4{font-size:40px;}
+}
+.color8{color:rgba(199, 161, 114, 0.4);}
+.color8:hover{color:rgba(199,161,114,1);}
+.bg1{background:#1B1C20;;transition:background-color 1s;}
+.bg1:hover{background-color:#2a201c;}

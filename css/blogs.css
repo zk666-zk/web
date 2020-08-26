@@ -1,0 +1,90 @@
+
+.navbar-toggler{
+	border:none;
+}
+
+/* .fixed-top{left:104px;} */
+.navbar-nav{padding-left:70%;}
+.mt-5{margin-top:151px !important;
+		margin-bottom:151px;}
+.line-height{
+	line-height:1.8;
+}
+	.carousel-indicators .active{
+				background-color:#0aa1ed;
+			}
+.carousel-indicators li{
+	width:0.8rem;height:0.8rem;
+	border-radius:50%;
+	background-color:#fff;
+}
+.dad{
+	float:left;
+	font-size:8em;
+	line-height:0.5em;
+	padding-top:0px;
+	padding-right:0.1em;
+}
+.row .pl-5{padding-left:400px !important;}
+.hh{height:697px;}
+.box{box-sizing: border-box;}
+.w-100{width:99% !important;height:99%;}
+.img1{background-image:url(../img/11.jpg);
+		background-size:99% 99%;
+		background-repeat:no-repeat;}
+.img2{background-image:url(../img/22.jpg);
+		background-size:99% 99%;
+		background-repeat:no-repeat;}
+.img3{background-image:url(../img/33.jpg);
+		background-size:99% 99%;
+		background-repeat:no-repeat;}
+.img4{background-image:url(../img/44.jpg);
+		background-size:99% 99%;
+		background-repeat:no-repeat;}
+.fy{background:rgba(0,0,0,0.0);transition: all 1s;}
+ .fd:hover>.fy{display:block !important;}
+.fy:hover{background:rgba(0,0,0,0.5);}
+.fy a{color:#FCF8E3;transition:all 1s}
+.fy a:hover{ text-decoration: none;color:#0aa1ed;}
+.mt{margin-top:50%;}
+#ad>div>p>a{color:#000000;text-decoration: underline;}
+.jia{color:#000000}
+.container1 {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 576px) {
+  .container1 {
+    max-width:100% !important;
+	/* margin-right:-9px !important; */
+	
+  }
+}
+
+@media (min-width: 768px) {
+  .container1 {
+    max-width: 100% !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .container1 {
+    max-width:100% !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container1 {
+    max-width: 100% !important;
+  }
+}
+.luni{width:100% !important;}
+.fixed-bottom{left:90%;bottom:10%;text-decoration: none}
+.der{border:20px solid transparent;}
+.der{border-bottom-color:rgba(0,0,0,0.5)}
+.der:hover{border-bottom-color:#C6C8CA;}
+.fixed-bottom:hover{text-decoration:none;}
+.img1{background-image:url}
