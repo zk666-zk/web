@@ -1,0 +1,624 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<script src="js/jquery.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<style>
+			*{margin: 0;padding: 0;}
+			*{box-sizing: border-box;}
+		.my_zsq5 li{
+				width: 12px;height: 12px;
+				border-radius: 50%;
+				background: #fff;
+				margin-left: 1rem;
+				margin-right: 1rem;
+			}
+			.my_zsq4 li{
+					width: 12px;height: 12px;
+					border-radius: 50%;
+					background: #fff;
+					margin-left: 1rem;
+					margin-right: 1rem;
+				}
+			.my_zsq3 li{
+						width: 12px;height: 12px;
+						border-radius: 50%;
+						background: #fff;
+						margin-left: 1rem;
+						margin-right: 1rem;
+					}
+			.my_zsq2 li{
+							width: 12px;height: 12px;
+							border-radius: 50%;
+							background: #fff;
+							margin-left: 1rem;
+							margin-right: 1rem;
+					}
+			.my_zsq1 li{
+							width: 12px;height: 12px;
+							border-radius: 50%;
+							background: #fff;
+							margin-left: 1rem;
+							margin-right: 1rem;
+					}
+			
+			.carousel-indicators .active {
+				background: #0aa1ed;
+			}
+			
+			.my_header{
+				background-color: raba(255,255,255,0);
+				
+			}
+			.nav-link{
+				font-size: 14px;
+				color:#333 !important;
+				
+			}
+			.my_fontbig{
+				font-size: 35px;
+				color: #000000 !important;
+			}
+			#demo1>ul>li>a:hover{
+				color: #C0C0C0 !important;
+			}
+			.lunbo{
+				top: 230px;
+				right: 200px;
+		
+			
+			}
+			.lunbo h2{
+				font-size: 55px;
+				margin-bottom: 20px;
+			}
+			.lunbo h3{
+				margin-left: 90px;
+				margin-bottom: 30px;
+			}
+			.lunbo button{
+				width: 200px;
+				border-radius: 50px;
+				margin-left: 150px;
+			}
+			.my_biao{
+				margin-left:100px;
+			
+			}
+			.my_caidan>li{
+				width: 280px;
+				height: 45px;
+				padding: 0 50px;
+			}
+			.my_caidan>li>a{
+			 text-decoration: none;
+			 color: #000000;
+			}
+			.my_caidan>li>a:hover{
+			
+			 color: #999;
+			}
+			.tu1{
+				top: 260px;
+				right: 160px;
+			}
+			.tu1 h2{
+				margin-bottom: 20px;
+				margin-left: 30px;
+			}
+			.tu1 h1{
+				margin-bottom: 30px;
+			}
+			.tu1 button{
+				width: 150px;
+				border-radius: 50px;
+				margin-left: 50px;
+			}
+			.my_xinpin{
+				width: 77px;
+				height: 28px;
+				left: 40px;
+				top: 40px;
+			}
+			.my_zhineng li a{ 
+				color:gray;
+			  padding: 0 16px;
+			}
+			.my_zbiao1{
+				width:100%;
+				
+			}
+			.my_zbiao{
+				width: 100%;
+			
+			}
+			.my_zhineng li a:hover{
+					text-decoration: none;
+					    color: #06B570;
+					    background: #ffffff;
+					    border-radius: 18px;
+			}
+			.my_watch{
+				text-decoration:none !important;
+				position: relative;
+				
+			}
+			.my_watch_1{
+				position: absolute;
+				bottom: 0px;
+				left: 75px;
+				color: #333;
+			}
+			.my_watch_2{
+				position: absolute;
+				bottom: 10px;
+				left: 50px;
+				color: #333;
+			}
+			.my_watch_3{
+				position: absolute;
+				bottom: 10px;
+				left: 80px;
+				color: #333;
+			}
+			.font_small{
+				font-size: 13px;
+				
+			}
+			.font_small>li{
+				padding: 4px 0px
+			}
+			.btn-dark{
+				width: 173px;
+				height: 53px;
+				border-radius: 50px;
+			}
+			.my_footer{
+				margin: 90px 0px;
+			}
+			.my_footer>li>a{
+				text-decoration: none;
+				color: #000000;
+				font-size: 16px;
+				text-align: center;
+			}
+			.my_footer>li>a:hover{
+				
+				color: #ACACAC;
+			}
+			.my_footer>li>a>img{
+				display: flex;
+				padding-bottom: 10px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container-fluid p-0">
+				<div class="navbar navbar-light navbar-expand-xl my_header pt-0 pb-0">
+				<!-- 1.永远显示的a标签 -->
+				<h1><a class="navbar-brand my_fontbig pl-5 ml-5" href="#">oppo</a></h1>
+				<!-- 2.小屏显示，大屏隐藏的按钮 -->
+				<button data-toggle="collapse" data-target="#demo1" class="navbar-toggler bg-light">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<!-- 3.折叠的内容div.collapse>ul>li>a -->
+				<div id="demo1" class="collapse navbar-collapse">
+					<ul class="navbar-nav  text-center list-unstyled d-flex justify-content-around container">
+						<li class="nav-item"><a class="nav-link mt-4 pb-4 mb-2" href="">Find X 系列 </a></li>
+						<li class="nav-item"><a class="nav-link mt-4 " href="">Reno 系列 </a></li>
+						<li class="nav-item"><a class="nav-link mt-4 " href="">Ace系列 </a></li>
+						<li class="nav-item"><a class="nav-link mt-4 " href="">K / A 系列</a></li>
+						<li class="nav-item"><a class="nav-link mt-4 " href="">智能硬件</a></li>
+						<li class="nav-item"><a class="nav-link mt-4 " href="">商城 </a></li>
+						<li class="nav-item"><a class="nav-link mt-4 " href="">关于 OPPO</a></li>
+						<li class="nav-item"><a class="nav-link mt-4 " href="">ColorOS</a></li>
+						<li class="nav-item"><a class="nav-link mt-4  pl-0" href="">服务</a></li>
+						<li class="nav-item ">
+							<div class="dropdown ">
+								<a class="nav-link pr-0 mt-3 pt-0" href="#" data-toggle="dropdown">
+									<img src="img/header.png" >
+								</a>
+							 <ul class="dropdown-menu my_caidan">
+								<li>
+								     <a href="#" >
+									  <img src="img/gouwuche.png" alt="" class="mb-1 mr-4">
+									     <span>购物车</span>
+										</a>
+										</li>
+												<hr>
+												<li>
+								<a href="#" >
+						     <img src="img/geren.png" class="mr-4">
+								 <span>个人中心</span></a></li>
+												<hr>
+												<li>
+								<a href="#" >
+									<img src="img/login.png " class="mr-4" >
+									<span>登录</span>
+									</a></li>
+							</ul>
+							</div></li>
+					</ul>
+				</div>
+			</div>
+<div id="demo" class="carousel" data-ride="carousel">	
+	<!-- 1.轮播的图片 -->
+	<div class="carousel-inner">
+		<div class="carousel-item active">
+			<div class="position-relative">
+			<div class="position-fixed float-right lunbo">
+				<h2>OPPO Reno4 系列 | 5G</h2>
+				<h3>&nbsp;&nbsp;&nbsp;超级夜景视频，拍出新夜色</h3>
+				<button class="btn btn-success">立即购买</button>
+			</div>
+			<img class="w-100" src="img/oppo_luobo1.jpg" alt="">
+			</div>
+		</div>
+		<div class="carousel-item">
+			<div class="position-relative">
+			<div class="position-fixed float-right lunbo">
+				<h2 style="color: #FFFFFF;">&nbsp;&nbsp;&nbsp;&nbsp;OPPO K7 新品上市</h2>
+				<h3 style="color: #FFFFFF;">骁龙 765G,30W 闪充 , 8G 大内存</h3>
+				<button class="btn btn-success my_">立即购买</button>
+			</div>
+			<img class="w-100" src="img/oppo_luobo2.jpg" alt="">
+			</div>
+		</div>		
+		<div class="carousel-item">
+			<div class="position-relative">
+			<div class="position-fixed float-right lunbo">
+				<h2>OPPO A72 新品上市</h2>
+				<h3>一体化双模 5G，128G 大内存</h3>
+				<button class="btn btn-success">立即购买</button>
+			</div>
+			<img class="w-100" src="img/oppo_luobo4.png" alt="">
+			</div>
+		</div>
+		<div class="carousel-item">
+			<div class="position-relative">
+			<div class="position-fixed float-right lunbo">
+				<h2 class="text-center">OPPO 手环</h2>
+				<h3>连续血氧监测 ，12种运动模式</h3>
+				<button class="btn btn-success">立即购买</button>
+			</div>
+			<img class="w-100" src="img/oppo_luobo5.jpg" alt="">
+			</div>
+		</div>
+		<div class="carousel-item">
+			<div class="position-relative">
+			<div class="position-fixed float-right lunbo">
+				<h2 >Reno4 Pro艺术家限定版 |</h2>
+				<h2 class="text-center">5G</h2>
+				<h3 class="text-center">   浮光幻影后盖，视频防抖3.0</h3>
+				<span class="mr-5 pl-4">&nbsp;&nbsp;</span><button class="btn btn-success my_">立即购买</button>
+			</div>
+			<img class="w-100" src="img/oppo_luobo6.jpg" alt="">
+			</div>
+		</div>
+	</div>
+	<!-- 2.轮播指示器 -->
+	<ul class="carousel-indicators my_zsq1">
+			<li data-target="#demo" data-slide-to="0" class="active"></li>
+			<li data-target="#demo" data-slide-to="1"></li>
+			<li data-target="#demo" data-slide-to="2"></li>
+			<li data-target="#demo" data-slide-to="3"></li>
+			<li data-target="#demo" data-slide-to="4"></li>
+	</ul>
+		</div>
+		<!-- 图片开始 -->
+		<div class="pt-5" style="background-color:#F4F4F4;">
+			<div class="row pt-5">
+				<div class="col-lg-2"></div>
+		<div class="col-sm-12 col-lg-8">
+		 <div id="tu1" class="carousel">
+				<!-- 1.可移动的图片 -->
+			 <div class="carousel-inner">
+					<div class="carousel-item active">
+						<div class="position-relative">
+							<div class="position-absolute text-center my_xinpin" style="border: 1px solid #00C678;color: #00C678;background-color: rgba(0,198,120,0.15);">
+								新品
+							</div>
+						<div class="position-absolute float-right tu1">
+							<h2 class="font-weight-normal">OPPO Reno4</h2>
+							<h1>超级夜景视频</h1>
+							<h2 class="pl-5 mb-5">￥3799</h2>
+							<button class="btn btn-success">立即购买</button>
+						</div>
+						<img class=" m-auto w-100" src="img/tu1_1.jpg" alt="">
+						</div>
+						
+					</div>
+					<div class="carousel-item">
+						<div class="position-absolute text-center my_xinpin" style="border: 1px solid #00C678;color: #00C678;background-color: rgba(0,198,120,0.15);">
+							新品
+						</div>
+						<img class=" m-auto w-100" src="img/tu1_2.jpg" alt="">
+					</div>
+					<div class="carousel-item">
+						<img class=" m-auto w-100" src="img/tu1_3.jpg" alt="">
+					</div>
+					<div class="carousel-item">
+						<img class=" m-auto w-100" src="img/tu1_4.jpg" alt="">
+					</div>
+				</div>
+				<!-- 2.轮播指示器 -->
+				<ul class="carousel-indicators my_zsq2">
+					<li data-target="#tu1" data-slide-to="0" class="active"></li>
+					<li data-target="#tu1" data-slide-to="1"></li>
+					<li data-target="#tu1" data-slide-to="2"></li>
+					<li data-target="#tu1" data-slide-to="3"></li>
+				</ul>
+		 </div>
+		</div>
+				<div class="col-lg-2"></div>
+			</div> <!--row结束 -->
+		<div class="row pt-5">
+				<div class="col-lg-2"></div>
+		<div class="col-sm-12 col-lg-8">
+		 <div id="tu2" class="carousel">
+				<!-- 可移动的图片_2 -->
+			 <div class="carousel-inner">
+					<div class="carousel-item active">
+						<div class="position-relative">
+							<div class="position-absolute text-center my_xinpin" style="border: 1px solid #00C678;color: #00C678;background-color: rgba(0,198,120,0.15);">
+								新品
+							</div>
+						<div class="position-absolute float-right tu1">
+							<h2 class="font-weight-normal text-secondary">OPPO Ace2</h2>
+							<h1 class="text-secondary">有线无线双闪充</h1>
+							<h2 class="pl-5 mb-5 text-secondary">￥3999</h2>
+							<button class="btn btn-success ">立即购买</button>
+						</div>
+						<img class=" m-auto w-100" src="img/tu2_1.jpg" alt="">
+						</div>
+						
+					</div>
+					<div class="carousel-item">
+						<div class="position-absolute text-center my_xinpin" style="border: 1px solid #00C678;color: #00C678;background-color: rgba(0,198,120,0.15);">
+							新品
+						</div>
+						<img class=" m-auto w-100" src="img/tu2_2.jpg" alt="">
+					</div>
+					<div class="carousel-item">
+						<img class=" m-auto w-100" src="img/tu2_3.jpg" alt="">
+					</div>
+				</div>
+				<!-- 2.轮播指示器 -->
+				<ul class="carousel-indicators my_zsq3">
+					<li data-target="#tu2" data-slide-to="0" class="active"></li>
+					<li data-target="#tu2" data-slide-to="1"></li>
+					<li data-target="#tu2" data-slide-to="2"></li>
+			
+				</ul>
+		 </div>
+		</div>
+				<div class="col-lg-2"></div>
+				</div><!-- row2结束-->
+				<!-- 图3开始 -->
+				<div class="row pt-5">
+						<div class="col-lg-2"></div>
+				<div class="col-sm-12 col-lg-4">
+					<div style="background-color:#fff;">
+						<h1 class="mb-0">&nbsp;</h1>
+					</div>
+				 <div id="tu3_l" class="carousel">
+						<!-- 可移动的图片_3-->
+					 <div class="carousel-inner">
+							<div class="carousel-item active">
+			<img class=" m-auto w-100  " src="img/tu3_1.webp" alt="">
+							</div>
+				<div class="carousel-item">
+					<img class=" m-auto w-100" src="img/tu3_1_2.webp" alt="">
+				</div>
+				<div class="carousel-item">
+					<img class=" m-auto w-100" src="img/tu3_1_3.webp" alt="">
+				</div>
+				<div class="carousel-item">
+					<img class=" m-auto w-100" src="img/tu3_1_4.webp" alt="">
+				</div>
+					</div>
+					
+						<!-- 2.轮播指示器 -->
+		<ul class="carousel-indicators my_zsq4">
+			<li data-target="#tu3_l" data-slide-to="0" class="active
+			bg-primary"></li>
+			<li data-target="#tu3_l" data-slide-to="1" class="bg-dark"></li>
+			<li data-target="#tu3_l" data-slide-to="2" class="bg-dark"></li>
+			<li data-target="#tu3_l" data-slide-to="3" class="bg-dark"></li>
+				</ul>
+		<div style="background-color:#fff;" class="text-center">
+			<h2>Reno3 Pro</h2>
+			<h4>双模5G丨视频超级双防抖</h4>
+			<h3>¥3499</h3>
+			<h1>&nbsp;</h1>
+			<h1>&nbsp;</h1>
+		</div>
+				
+			</div>
+		</div>
+				<!--右图片-->
+				<div class="col-sm-12 col-lg-4">
+					<div style="background-color:#fff;">
+						<h1 class="mb-0">&nbsp;</h1>
+					</div>
+				 <div id="tu3_r" class="carousel">
+					 <div class="carousel-inner">
+							<div class="carousel-item active">
+				<img class=" m-auto w-100" src="img/tu3_2.webp" alt="">
+								</div>
+						
+							<div class="carousel-item">
+			<img class=" m-auto w-100" src="img/tu3_2_2.webp" alt="">
+							</div>
+							<div class="carousel-item">
+			<img class=" m-auto w-100" src="img/tu3_2_3.webp" alt="">
+							</div>
+							<div class="carousel-item">
+			<img class=" m-auto w-100" src="img/tu3_2_4.webp" alt="">
+											</div>
+						</div>
+						<!-- 2.轮播指示器 -->
+						<ul class="carousel-indicators my_zsq5">
+							<li data-target="#tu3_r" data-slide-to="0" class="active bg-primary"></li>
+							<li data-target="#tu3_r" data-slide-to="1" class="bg-dark"></li>
+							<li data-target="#tu3_r" data-slide-to="2" class="bg-dark"></li>
+					    <li data-target="#tu3_r" data-slide-to="3" class="bg-dark"></li>
+						</ul>
+						<div style="background-color:#fff;" class="text-center">
+							<h2>Find X2 Pro</h2>
+							<h4>120Hz超感屏 | 骁龙865</h4>
+							<h3>¥5999</h3>
+							<h1>&nbsp;</h1>
+							<h1>&nbsp;</h1>
+						</div>
+				 </div>
+				</div>
+						</div><!-- row结束 -->
+						<!-- 智能推荐 -->
+						<div>
+							<h1>&nbsp;</h1>
+						</div>
+						<div class="container">
+					<ul class="list-unstyled d-flex justify-content-around container my_zhineng">
+						 <div><p  style="font-size: 22px; font-weight: 500;">智能硬件</p>
+						 </div>
+						<li ><a href="" class="active" >推荐</a></li>
+						<li><a href="" >耳机</a></li>
+						<li><a href="">智能穿戴</a></li>
+						<li><a href="" >数据线/适配器</a></li>
+						<li><a href="" >移动电源</a></li>
+						<li><a href="" >超值套餐</a></li>
+						<li><a href="" >保护壳</a></li>
+						<li><a href="" >其他</a></li>
+					</ul>
+				
+			<div class="row active" >
+				<div class="col-lg-6 col-sm-12">
+				<a href="" class="my_watch" >
+					<div class="my_watch_1">
+					<h4>OPPO Watch</h4>
+					<h5>¥1499</h5>
+					</div>
+					<img src="img/shoubiao_1.webp" class="my_zbiao1 bg-white">
+				</a>
+				</div>
+				<div class="col-lg-3 col-sm-6">
+					<div class="bg-white" style="height: 391.5px;">
+						<div class="position-absolute text-center my_xinpin" style="border: 1px solid #00C678;color: #00C678;background-color: rgba(0,198,120,0.15);">
+							新品
+						</div>
+			
+					
+					
+					<a href="">
+						<div class="my_watch_2">
+						<h4>OPPO 手环 时尚版</h4>
+						<h5>¥249</h5>
+						</div>
+						<img src="img/shoubiao_2.webp" class="my_zbiao pt-5 mt-5">
+					</a>
+					
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6">
+					<div class="bg-white" style="height:391.5px">
+					<div class="position-absolute text-center my_xinpin" style="border: 1px solid #00C678;color: #00C678;background-color: rgba(0,198,120,0.15);">
+						新品
+					</div>
+					<a href="">
+						<div class="my_watch_3">
+							<h4>OPPO 手环 </h4>
+							<h5>¥199</h5>
+						</div>
+						<img src="img/shoubiao_3.webp" class="my_zbiao mt-5 pt-5">
+					</a>
+				</div>
+			</div>
+		</div><!-- row结束 -->
+				</div>
+				<h2>&nbsp;</h2>
+				<h2>&nbsp;</h2>
+		</div><!--图片结束 -->
+		<div class="container">
+			<div>
+				<ul class="list-unstyled d-flex justify-content-around my_footer">
+					<li><a href=""><img src="img/footer.png">1年全国联保</a></li>
+					<li><a href=""><img src="img/footer7.png" >7天退货保障</a></li>
+					<li><a href=""><img src="img/footer8.png" >30天换货保障</a></li>
+					<li><a href=""><img src="img/footer4.png" >满69元包邮</a></li>
+					<li><a href=""><img src="img/footer5.png" >900家售后网点</a></li>
+					<li><a href=""><img src="img/footer6.png" >正品保障</a></li>
+				</ul>
+			</div>
+			<hr color="#D6D8D9">
+			<div class="row no-gutters">
+				<div class="col-2">
+			<ul class="font_small list-unstyled">
+				<li><a href="" class="text-dark">推荐产品</a></li>
+				<li><a href="" class="text-muted">Find x2 pro</a></li>
+				<li><a href="" class="text-muted">Find x2</a></li>
+				<li><a href="" class="text-muted">Reno3 pro</a></li>
+				<li><a href="" class="text-muted">Reno3</a></li>
+				<li><a href="" class="text-muted">Reno Ace</a></li>
+				<li><a href="" class="text-muted">A91 </a></li>
+				<li><a href="" class="text-muted">OPPO Watch</a></li>
+			</ul>
+			</div>
+			<div class="col-2">
+			<ul class="font_small list-unstyled">
+				<li><a href="" class="text-dark">购买渠道</a></li>
+				<li><a href="" class="text-muted">线下体验店</a></li>
+				<li><a href="" class="text-muted">官方商城</a></li>
+				<li><a href="" class="text-muted">官方授权店</a></li>
+			</ul>
+			</div>
+			<div class="col-2">
+			<ul class="font_small list-unstyled">
+				<li><a href="" class="text-dark">探索精彩OPPO</a></li>
+				<li><a href="" class="text-muted">关于OPPO</a></li>
+				<li><a href="" class="text-muted">OPPO管理层</a></li>
+				<li><a href="" class="text-muted">新闻中心</a></li>
+				<li><a href="" class="text-muted">OPPO社区</a></li>
+				<li><a href="" class="text-muted">加入我们</a></li>
+				<li><a href="" class="text-muted">知识产权</a></li>
+			</ul>
+			</div>
+			<div class="col-2">
+			<ul class="font_small list-unstyled">
+				<li><a href="" class="text-dark">商务合作</a></li>
+				<li><a href="" class="text-muted">企业合作</a></li>
+				<li><a href="" class="text-muted">开放平台</a></li>
+				<li><a href="" class="text-muted">采购相关</a></li>
+				<li><a href="" class="text-muted">媒体联络</a></li>
+				<li><a href="" class="text-muted">加入我们</a></li>
+				<li><a href="" class="text-muted">知识产权</a></li>
+			</ul>
+			</div>
+			<div class="col-2">
+			<ul class="font_small list-unstyled">
+				<li><a href="" class="text-dark">服务与支持</a></li>
+				<li><a href="" class="text-muted">联系我们</a></li>
+				<li><a href="" class="text-muted">ColorOS</a></li>
+				<li><a href="" class="text-muted">云服务</a></li>
+				<li><a href="" class="text-muted">以旧换新</a></li>
+				<li><a href="" class="text-muted">服务政策</a></li>
+				<li><a href="" class="text-muted">预置软件公示</a></li>
+				<li><a href="" class="text-muted">安全响应中心</a></li>
+			</ul>
+			</div>
+			<div class="col-2">
+				<button type="button" class="btn-dark mb-3">在线客服</button>
+				<h3 align="right">95018</h3>
+				<p align="right">24小时全国热线</p>
+			</div>
+			</div>
+		</div>
+	</div>
+
+	
+	</body>
+</html>

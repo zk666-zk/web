@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>CSS examples - A:hover图片预览效果--By:小web</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<style type="text/css">
+*{
+  position:relative;
+}
+img {
+  border:none;
+}
+#room{
+  width:520px;
+  margin:50px auto;
+  text-align:center;font-size:13px;
+
+}
+#room a{
+  display:block;
+  width:100px;height:100px;
+  margin:5px;padding:5px;
+  float:left;
+  line-height:25px;
+  border:1px solid gray;background:#ccc;
+}
+#room a img{
+  width:100px;height:100px;
+}
+#room a:hover{/*IE6的bug在这个设置中可以消除*/
+  background:none;
+  color:#0065FF;
+  z-index:1000;
+
+}
+#room a:hover img{
+  display:block;
+  width:200px;height:200px;
+  margin-left:-100px;padding:2px;
+  position:absolute;left:50%;top:-50px;
+  border:1px solid gray;background:#fff;
+}
+</style>
+</head>
+
+<body>
+<div id="room">
+  <a href="#"><img src="http://images.cnblogs.com/cnblogs_com/littleweb/170141/r_1.jpg" alt="星坐" /></a>
+  <a href="#"><img src="http://images.cnblogs.com/cnblogs_com/littleweb/170141/r_2.jpg" alt="星坐" /></a>
+  <a href="#"><img src="http://images.cnblogs.com/cnblogs_com/littleweb/170141/r_3.jpg" alt="星坐" /></a>
+  <a href="#"><img src="http://images.cnblogs.com/cnblogs_com/littleweb/170141/r_4.jpg" alt="星坐" /></a>
+  <a href="#"><img src="http://images.cnblogs.com/cnblogs_com/littleweb/170141/r_5.jpg" alt="星坐" /></a>
+  <a href="#"><img src="http://images.cnblogs.com/cnblogs_com/littleweb/170141/r_6.jpg" alt="星坐" /></a>
+  <a href="#"><img src="http://images.cnblogs.com/cnblogs_com/littleweb/170141/r_7.jpg" alt="星坐" /></a>
+  <a href="#"><img src="http://images.cnblogs.com/cnblogs_com/littleweb/170141/r_8.jpg" alt="星坐" /></a>
+  <a href="#"><img src="http://images.cnblogs.com/cnblogs_com/littleweb/170141/r_9.jpg" alt="星坐" /></a>
+  <a href="#"><img src="http://images.cnblogs.com/cnblogs_com/littleweb/170141/r_10.jpg" alt="星坐" /></a>
+  <a href="#"><img src="http://images.cnblogs.com/cnblogs_com/littleweb/170141/r_11.jpg" alt="星坐" /></a>
+  <a href="#"><img src="http://images.cnblogs.com/cnblogs_com/littleweb/170141/r_12.jpg" alt="星坐" /></a>
+</div>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+a {
+  color: red; }
+a:hover {
+    color: green; }
+
+#content {
+  color: #111; }
+  #content div {
+    color: #111; }
+    #content div a {
+      color: #111; }
+    #content div h2 {
+      color: #111; }
+  #content p {
+    color: #111; }
+    #content p span {
+      color: #111; }
+    #content p b {
+      color: #111; }
+
+#d1 {
+  color: #f10;
+  width: 2px;
+  border: 2px solid #f10245; }
